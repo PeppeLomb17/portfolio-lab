@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+
+# Data (NEVER COMMIT REAL BROKER EXPORTS)
+data/**
+!data/
+!data/.gitkeep
+
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Logs / temp
+logs/
+tmp/
+*.log
+
+# Docker volumes (if any local bind)
+volumes/
